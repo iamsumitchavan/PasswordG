@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="shad">
+        <div class="head">
+           <h1 class="heading-txt">Password Generator</h1>
+        </div>
+       
+       
+        <div class="slidebar">
+        <div class="inpData" >
+        <input readonly class="data-container" type="text" >
+        <span class="copyContentMessage"></span>
+       
+        </div>
+
+       <div class="input-slider">
+        <div class="data">0</div>
+        <input type="range" min="1" max="12" class="slider" id="myRange">
+       </div>
+      </div>
+
+
+      <div class="boxes">
+        <div>
+            <input id="upperCase" type="checkbox" value="1" class="check">
+            <label class="check-txt">include upper case letter</label>
+        </div>
+        <div>
+            <input id="LowerCase" type="checkbox" value="2"  class="check">
+            <label class="check-txt">include Lower case letter</label>
+        </div>
+        <div>
+            <input id="number" type="checkbox" value="3"  class="check">
+            <label class="check-txt">Include numbers</label>
+        </div>
+        <div>
+            <input id="symbol" type="checkbox" value="4"  class="check">
+            <label class="check-txt">Include symbols</label>
+        </div>
+
+        </div>
+
+        <div class="submit-btn">
+            <button class="generateBtn" >Generate password</button>
+        </div>
+    </div>
+ 
+    </div>
+   <script src="./Dummy.js"></script>
+</body>
+</html>

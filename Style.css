@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.head {
+
+    
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.heading-txt{
+
+    font-size: x-large;
+    color: black
+    
+}
+
+.shad{
+
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    border: 1px solid gray;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    z-index: 30px;
+    
+}
+.cimg{
+
+    width: 50px;
+}
+
+.inpData{
+
+    display: flex;
+    align-items: center;
+}
+
+
+.slider{
+
+    height: 100px;
+    width: 40%;
+
+    }
+.data {
+
+    font-size: x-large;
+ }
+
+ .data-container {
+
+    padding: 5px;
+    width: 300px;
+    font-size: medium;
+    font-size: larger; 
+   
+ }
+ .second-stage{
+    display: flex;
+    justify-content: center;
+ }
+
+ .input-slider{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+ }
+ 
+ .check{
+
+    height: 20px;
+    width: 20px;
+ }
+ .check-txt {
+    font-size: medium;
+   
+    
+ }
+
+ .submit-btn {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+ }
+
+ .generateBtn{
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 10px;
+    color: white;
+    background-color: black;
+    font-size: medium;
+ }
+ .boxes {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    
+    
+ }
+ body{
+    background-color: white;
+ }
